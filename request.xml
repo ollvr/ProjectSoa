@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:test="http://test2/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <test:findFile>
+         <path>/home/omar/Deskto</path>
+         <fileName>test.txt</fileName>
+      </test:findFile>
+   </soapenv:Body>
+</soapenv:Envelope>
